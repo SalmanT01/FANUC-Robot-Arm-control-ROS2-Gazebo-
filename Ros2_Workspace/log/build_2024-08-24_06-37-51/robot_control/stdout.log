@@ -1,0 +1,6 @@
+[100%] Built target motion_control
+-- Install configuration: ""
+-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/lib/robot_control/motion_control
+-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch
+-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch/gazebo.launch.py
+-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch/display.launch.py

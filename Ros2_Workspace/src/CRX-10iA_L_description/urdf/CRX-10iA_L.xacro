@@ -1,0 +1,293 @@
+<?xml version="1.0" ?>
+<robot name="CRX-10iA_L" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find CRX-10iA_L_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find CRX-10iA_L_description)/urdf/CRX-10iA_L.trans" />
+<xacro:include filename="$(find CRX-10iA_L_description)/urdf/CRX-10iA_L.gazebo" />
+
+<!--LINKS AND JOINTS -->
+
+
+<link name="world">
+</link>
+
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.0054015345486125585 -3.9403481603570603e-07 0.040867773188912555" rpy="0 0 0"/>
+    <mass value="14.941659808739926"/>
+    <inertia ixx="0.034902" iyy="0.04052" izz="0.059728" ixy="-9e-06" iyz="-0.0" ixz="0.000382"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="CRX-10iAL_Axis1_1">
+  <inertial>
+    <origin xyz="8.752265133023193e-08 -0.017682843381042056 0.1239044205838422" rpy="0 0 0"/>
+    <mass value="43.22376810435975"/>
+    <inertia ixx="0.28762" iyy="0.245492" izz="0.18024" ixy="-0.0" iyz="0.027947" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.085" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/CRX-10iAL_Axis1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="yellow"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.085" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/CRX-10iAL_Axis1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="CRX-10iAL_Axis2_1">
+  <inertial>
+    <origin xyz="-7.212107093816197e-08 -0.08316386761478586 0.3401773487345354" rpy="0 0 0"/>
+    <mass value="95.15213988554338"/>
+    <inertia ixx="7.528384" iyy="7.437878" izz="0.2985" ixy="0.0" iyz="-0.19885" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 0.119 -0.244" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/CRX-10iAL_Axis2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="yellow"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 0.119 -0.244" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/CRX-10iAL_Axis2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="CRX-10iAL_Axis3_1">
+  <inertial>
+    <origin xyz="0.035204530664871066 0.06853222346662544 -5.551098609668514e-07" rpy="0 0 0"/>
+    <mass value="22.32713023721424"/>
+    <inertia ixx="0.050731" iyy="0.098635" izz="0.100913" ixy="-0.00592" iyz="0.0" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-3.1e-05 0.075 -0.954147" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/CRX-10iAL_Axis3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="yellow"/>
+  </visual>
+  <collision>
+    <origin xyz="-3.1e-05 0.075 -0.954147" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/CRX-10iAL_Axis3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="CRX-10iAL_Axis4_1">
+  <inertial>
+    <origin xyz="0.22834497084293323 -0.0016927560641007463 -2.0013249957262502e-07" rpy="0 0 0"/>
+    <mass value="26.82526478618952"/>
+    <inertia ixx="0.035351" iyy="0.464269" izz="0.466364" ixy="0.007332" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.153031 -0.0 -0.954147" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/CRX-10iAL_Axis4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="yellow"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.153031 -0.0 -0.954147" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/CRX-10iAL_Axis4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+
+<link name="CRX-10iAL_Axis5_1">
+  <inertial>
+    <origin xyz="0.020218573430663023 -0.07303772982098702 2.098067197753295e-07" rpy="0 0 0"/>
+    <mass value="11.641576791686232"/>
+    <inertia ixx="0.021516" iyy="0.025088" izz="0.031492" ixy="0.003018" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.539031 0.064 -0.954147" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/CRX-10iAL_Axis5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="yellow"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.539031 0.064 -0.954147" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/CRX-10iAL_Axis5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="CRX-10iAL_Axis6_WithConnectors_1">
+  <inertial>
+    <origin xyz="0.027566781731945045 0.0004749335682254774 4.307986720131218e-06" rpy="0 0 0"/>
+    <mass value="2.89390904764713"/>
+    <inertia ixx="0.003054" iyy="0.002221" izz="0.002302" ixy="-8e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.638531 0.149 -0.954147" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/CRX-10iAL_Axis6_WithConnectors_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.638531 0.149 -0.954147" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find CRX-10iA_L_description)/meshes/CRX-10iAL_Axis6_WithConnectors_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="world-BaseLink" type="fixed">
+  <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  <parent link="world"/>
+  <child link="base_link"/>
+  <axis xyz="0.0 0.0 0.0"/>
+</joint>
+
+<joint name="Link1-BaseLink" type="continuous">
+  <origin xyz="0.0 0.0 0.085" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="CRX-10iAL_Axis1_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+</joint>
+
+<joint name="Link2-Link1" type="continuous">
+  <origin xyz="0.0 -0.119 0.159" rpy="0 0 0"/>
+  <parent link="CRX-10iAL_Axis1_1"/>
+  <child link="CRX-10iAL_Axis2_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="Link3-Link2" type="continuous">
+  <origin xyz="3.1e-05 0.044 0.710147" rpy="0 0 0"/>
+  <parent link="CRX-10iAL_Axis2_1"/>
+  <child link="CRX-10iAL_Axis3_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Link4-Link3" type="continuous">
+  <origin xyz="0.153 0.075 0.0" rpy="0 0 0"/>
+  <parent link="CRX-10iAL_Axis3_1"/>
+  <child link="CRX-10iAL_Axis4_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Link5-Link4" type="continuous">
+  <origin xyz="0.386 -0.064 0.0" rpy="0 0 0"/>
+  <parent link="CRX-10iAL_Axis4_1"/>
+  <child link="CRX-10iAL_Axis5_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="Link6-Link5" type="continuous">
+  <origin xyz="0.0995 -0.085 0.0" rpy="0 0 0"/>
+  <parent link="CRX-10iAL_Axis5_1"/>
+  <child link="CRX-10iAL_Axis6_WithConnectors_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<!--ROS 2 CONTROL -->
+<ros2_control name="GazeboSystem" type="system">
+  <hardware>
+    <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+  </hardware>
+  
+  <!--JOINT 1 -->
+    <joint name="Link1-BaseLink">
+      <command_interface name="position">
+        <param name="min">-3.14 </param>
+        <param name="max">3.14 </param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0 </param>
+      </state_interface>
+    </joint>  
+
+  <!--JOINT 2 -->
+    <joint name="Link2-Link1">
+      <command_interface name="position">
+        <param name="min">-3.14 </param>
+        <param name="max">3.14 </param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0 </param>
+      </state_interface>
+    </joint>
+
+  <!--JOINT 3 -->
+    <joint name="Link3-Link2">
+      <command_interface name="position">
+        <param name="min">-3.14 </param>
+        <param name="max">3.14 </param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0 </param>
+      </state_interface>
+    </joint>
+
+  <!--JOINT 4 -->
+    <joint name="Link4-Link3">
+      <command_interface name="position">
+        <param name="min">-3.14 </param>
+        <param name="max">3.14 </param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0 </param>
+      </state_interface>
+    </joint>
+
+  <!--JOINT 5 -->
+    <joint name="Link5-Link4">
+      <command_interface name="position">
+        <param name="min">-3.14 </param>
+        <param name="max">3.14 </param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0 </param>
+      </state_interface>
+    </joint>
+
+  <!--JOINT 6 -->
+      <joint name="Link6-Link5">
+      <command_interface name="position">
+        <param name="min">-3.14 </param>
+        <param name="max">3.14 </param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0 </param>
+      </state_interface>
+    </joint>
+</ros2_control>
+
+<!--GAZEBO -->
+
+<gazebo>
+  <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+    <parameters>$(find robot_control)/config/joint_controller.yaml</parameters>
+  </plugin>
+</gazebo>
+
+</robot>

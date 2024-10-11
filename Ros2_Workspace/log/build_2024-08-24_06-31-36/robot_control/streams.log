@@ -1,0 +1,47 @@
+[1.784s] Invoking command in '/home/salman/Ros2_Workspace/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4
+[2.745s] [100%] Built target motion_control
+[2.801s] Invoked command in '/home/salman/Ros2_Workspace/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4
+[3.061s] Invoking command in '/home/salman/Ros2_Workspace/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --install /home/salman/Ros2_Workspace/build/robot_control
+[3.093s] -- Install configuration: ""
+[3.108s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/lib/robot_control/motion_control
+[3.115s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch
+[3.127s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch/gazebo.launch.py
+[3.128s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch/display.launch.py
+[3.129s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/urdf
+[3.130s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/urdf/CRX-10iA_L.trans
+[3.131s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/urdf/materials.xacro
+[3.131s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/urdf/CRX-10iA_L.gazebo
+[3.131s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/urdf/CRX-10iA_L.xacro
+[3.131s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes
+[3.137s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_MotionEnvelope_J5AxisRotation_1.stl
+[3.138s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_MotionEnvelope_EndofFlange_1.stl
+[3.138s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_Axis3_1.stl
+[3.139s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_Axis4_1.stl
+[3.141s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_Axis6_WithConnectors_1.stl
+[3.142s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CORDGRIP.stl
+[3.144s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/J1PLATE.stl
+[3.145s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_Axis5_1.stl
+[3.145s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CAM.stl
+[3.145s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/base_link.stl
+[3.150s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_MaxReachReference_1.stl
+[3.150s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_Axis2_1.stl
+[3.151s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CONNECTOR_UNIT.stl
+[3.152s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_Axis1_1.stl
+[3.153s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/config
+[3.153s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/config/joint_controller.yaml
+[3.154s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[3.157s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[3.158s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[3.158s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[3.159s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/path.sh
+[3.162s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/path.dsv
+[3.162s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.bash
+[3.162s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.sh
+[3.163s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.zsh
+[3.163s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.dsv
+[3.163s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/package.dsv
+[3.163s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[3.163s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[3.163s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[3.164s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/package.xml
+[3.169s] Invoked command in '/home/salman/Ros2_Workspace/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --install /home/salman/Ros2_Workspace/build/robot_control

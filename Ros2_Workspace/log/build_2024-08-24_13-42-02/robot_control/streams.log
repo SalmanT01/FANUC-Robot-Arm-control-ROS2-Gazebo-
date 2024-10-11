@@ -1,0 +1,77 @@
+[0.878s] Invoking command in '/home/salman/Ros2_Workspace/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4
+[1.055s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.657s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.896s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.915s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.963s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.054s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.350s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.366s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.155s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[3.158s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.354s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[3.479s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[3.492s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.916s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.917s] -- Configured cppcheck include dirs: 
+[3.917s] -- Configured cppcheck exclude dirs and/or files: 
+[3.919s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.920s] -- Added test 'lint_cmake' to check CMake code style
+[3.923s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.929s] -- Added test 'uncrustify' to check C / C++ code style
+[3.929s] -- Configured uncrustify additional arguments: 
+[3.933s] -- Added test 'xmllint' to check XML markup files
+[3.945s] -- Configuring done
+[4.053s] -- Generating done
+[4.063s] -- Build files have been written to: /home/salman/Ros2_Workspace/build/robot_control
+[4.174s] [35m[1mConsolidate compiler generated dependencies of target motion_control[0m
+[4.267s] [100%] Built target motion_control
+[4.304s] Invoked command in '/home/salman/Ros2_Workspace/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4
+[4.469s] Invoking command in '/home/salman/Ros2_Workspace/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --install /home/salman/Ros2_Workspace/build/robot_control
+[4.493s] -- Install configuration: ""
+[4.499s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/lib/robot_control/motion_control
+[4.499s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch
+[4.500s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch/gazebo.launch.py
+[4.500s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch/display.launch.py
+[4.501s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch/motion.launch.py
+[4.502s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/urdf
+[4.505s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/urdf/CRX-10iA_L.trans
+[4.505s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/urdf/materials.xacro
+[4.506s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/urdf/CRX-10iA_L.gazebo
+[4.507s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/urdf/CRX-10iA_L.xacro
+[4.507s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes
+[4.508s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_MotionEnvelope_J5AxisRotation_1.stl
+[4.508s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_MotionEnvelope_EndofFlange_1.stl
+[4.508s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_Axis3_1.stl
+[4.508s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_Axis4_1.stl
+[4.509s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_Axis6_WithConnectors_1.stl
+[4.510s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CORDGRIP.stl
+[4.511s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/J1PLATE.stl
+[4.512s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_Axis5_1.stl
+[4.513s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CAM.stl
+[4.514s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/base_link.stl
+[4.514s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_MaxReachReference_1.stl
+[4.514s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_Axis2_1.stl
+[4.515s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CONNECTOR_UNIT.stl
+[4.515s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/meshes/CRX-10iAL_Axis1_1.stl
+[4.515s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/config
+[4.515s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/config/display.rviz
+[4.515s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/config/joint_controller.yaml
+[4.516s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[4.516s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[4.516s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[4.517s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[4.517s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/path.sh
+[4.517s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/path.dsv
+[4.518s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.bash
+[4.518s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.sh
+[4.518s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.zsh
+[4.519s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.dsv
+[4.519s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/package.dsv
+[4.519s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[4.519s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[4.519s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[4.520s] -- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/package.xml
+[4.583s] Invoked command in '/home/salman/Ros2_Workspace/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --install /home/salman/Ros2_Workspace/build/robot_control

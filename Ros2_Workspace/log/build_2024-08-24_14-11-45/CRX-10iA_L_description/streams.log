@@ -1,0 +1,22 @@
+[1.432s] Invoking command in '/home/salman/Ros2_Workspace/src/CRX-10iA_L_description': PYTHONPATH=/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/CRX-10iA_L_description build --build-base /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build install --record /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/install.log --install-scripts $base/lib/CRX-10iA_L_description --single-version-externally-managed install_data
+[2.363s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.363s]   warnings.warn(
+[2.408s] running egg_info
+[2.410s] writing ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/PKG-INFO
+[2.412s] writing dependency_links to ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/dependency_links.txt
+[2.414s] writing entry points to ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/entry_points.txt
+[2.417s] writing requirements to ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/requires.txt
+[2.417s] writing top-level names to ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/top_level.txt
+[2.429s] reading manifest file '../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/SOURCES.txt'
+[2.437s] writing manifest file '../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/SOURCES.txt'
+[2.437s] running build
+[2.438s] running build_py
+[2.442s] running install
+[2.443s] running install_lib
+[2.449s] running install_data
+[2.460s] running install_egg_info
+[2.474s] removing '/home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX_10iA_L_description-0.0.0-py3.10.egg-info' (and everything under it)
+[2.475s] Copying ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info to /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX_10iA_L_description-0.0.0-py3.10.egg-info
+[2.484s] running install_scripts
+[2.613s] writing list of installed files to '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/install.log'
+[2.706s] Invoked command in '/home/salman/Ros2_Workspace/src/CRX-10iA_L_description' returned '0': PYTHONPATH=/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/CRX-10iA_L_description build --build-base /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build install --record /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/install.log --install-scripts $base/lib/CRX-10iA_L_description --single-version-externally-managed install_data

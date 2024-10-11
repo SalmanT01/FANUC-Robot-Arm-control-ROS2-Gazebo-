@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/dependency_links.txt
+writing entry points to ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/entry_points.txt
+writing requirements to ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/requires.txt
+writing top-level names to ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/top_level.txt
+reading manifest file '../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying urdf/materials.xacro -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/urdf
+copying urdf/CRX-10iA_L.gazebo -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/urdf
+running install_egg_info
+removing '/home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX_10iA_L_description-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info to /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX_10iA_L_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/install.log'

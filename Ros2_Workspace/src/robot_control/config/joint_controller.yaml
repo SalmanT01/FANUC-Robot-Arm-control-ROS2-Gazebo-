@@ -1,0 +1,41 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+    
+    
+      
+    # The JointTrajectoryController allows you to send joint trajectory commands to a group 
+    # of joints on a robot. These commands specify the desired positions for each joint.     
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+#    grip_controller:
+#      type: joint_trajectory_controller/JointTrajectoryController
+     
+    # An optional additional controller to control the gripper. 
+    # This interface is preferred to JointTrajectoryController above.  
+#    grip_action_controller:
+#      type: position_controllers/GripperActionController
+
+    # Responsible for publishing the current state of the robot's joints to the /joint_states 
+    # ROS 2 topic
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+      
+      
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - Link1-BaseLink
+      - Link2-Link1
+      - Link3-Link2
+      - Link4-Link3
+      - Link5-Link4
+      - Link6-Link5
+      
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+#      - velocity
+      

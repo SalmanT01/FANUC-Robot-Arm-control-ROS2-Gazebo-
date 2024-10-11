@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<robot name="CRX-10iA_L" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<transmission name="Link1-BaseLink_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Link1-BaseLink">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Link1-BaseLink_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Link2-Link1_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Link2-Link1">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Link2-Link1_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Link3-Link2_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Link3-Link2">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Link3-Link2_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Link4-Link3_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Link4-Link3">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Link4-Link3_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Link5-Link4_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Link5-Link4">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Link5-Link4_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Link6-Link5_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Link6-Link5">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Link6-Link5_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>

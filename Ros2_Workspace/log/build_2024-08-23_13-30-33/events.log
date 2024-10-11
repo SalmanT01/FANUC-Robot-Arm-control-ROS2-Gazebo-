@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.001751] (CRX-10iA_L_description) JobQueued: {'identifier': 'CRX-10iA_L_description', 'dependencies': OrderedDict()}
+[0.002254] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict()}
+[0.002333] (CRX-10iA_L_description) JobStarted: {'identifier': 'CRX-10iA_L_description'}
+[0.027878] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[0.100251] (-) TimerEvent: {}
+[0.200622] (-) TimerEvent: {}
+[0.301432] (-) TimerEvent: {}
+[0.402037] (-) TimerEvent: {}
+[0.468561] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'cmake'}
+[0.475612] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'build'}
+[0.475752] (robot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/salman/Ros2_Workspace/build/robot_control', '--', '-j4', '-l4'], 'cwd': '/home/salman/Ros2_Workspace/build/robot_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'salman'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/salman'), ('OLDPWD', '/home/salman/Ros2_Workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/salman/Ros2_Workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'salman'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'salman'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/salman-vm:@/tmp/.ICE-unix/1094,unix/salman-vm:/tmp/.ICE-unix/1094'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/691488b5_3184_4e3c_8cbc_22e21b8f39c7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K8K1S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.141'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/salman/Ros2_Workspace/install/robot_control:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/salman/Ros2_Workspace/build/robot_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/salman/Ros2_Workspace/install/robot_control:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble')]), 'shell': False}
+[0.502491] (-) TimerEvent: {}
+[0.603446] (-) TimerEvent: {}
+[0.683040] (robot_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.703964] (-) TimerEvent: {}
+[0.804461] (-) TimerEvent: {}
+[0.905445] (-) TimerEvent: {}
+[1.006190] (-) TimerEvent: {}
+[1.077825] (robot_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.106485] (-) TimerEvent: {}
+[1.166540] (robot_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.175332] (robot_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.191720] (robot_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.207020] (-) TimerEvent: {}
+[1.227298] (robot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.299474] (CRX-10iA_L_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/CRX-10iA_L_description', 'build', '--build-base', '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build', 'install', '--record', '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/install.log', '--install-scripts', '$base/lib/CRX-10iA_L_description', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/salman/Ros2_Workspace/src/CRX-10iA_L_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'salman', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/salman', 'OLDPWD': '/home/salman/Ros2_Workspace/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1120', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/salman/Ros2_Workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'salman', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'salman', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/salman-vm:@/tmp/.ICE-unix/1094,unix/salman-vm:/tmp/.ICE-unix/1094', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/691488b5_3184_4e3c_8cbc_22e21b8f39c7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.K8K1S2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.141', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/salman/Ros2_Workspace/install/robot_control:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/salman/Ros2_Workspace/install/robot_control'}, 'shell': False}
+[1.307195] (-) TimerEvent: {}
+[1.311335] (robot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.407756] (-) TimerEvent: {}
+[1.457443] (robot_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.467971] (robot_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.507983] (-) TimerEvent: {}
+[1.610078] (-) TimerEvent: {}
+[1.664690] (robot_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.691671] (CRX-10iA_L_description) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.692185] (CRX-10iA_L_description) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.710466] (-) TimerEvent: {}
+[1.714045] (CRX-10iA_L_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.715478] (CRX-10iA_L_description) StdoutLine: {'line': b'writing ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/PKG-INFO\n'}
+[1.717039] (CRX-10iA_L_description) StdoutLine: {'line': b'writing dependency_links to ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/dependency_links.txt\n'}
+[1.717930] (CRX-10iA_L_description) StdoutLine: {'line': b'writing entry points to ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/entry_points.txt\n'}
+[1.718523] (CRX-10iA_L_description) StdoutLine: {'line': b'writing requirements to ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/requires.txt\n'}
+[1.718998] (CRX-10iA_L_description) StdoutLine: {'line': b'writing top-level names to ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/top_level.txt\n'}
+[1.723699] (CRX-10iA_L_description) StdoutLine: {'line': b"reading manifest file '../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/SOURCES.txt'\n"}
+[1.726743] (CRX-10iA_L_description) StdoutLine: {'line': b"writing manifest file '../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/SOURCES.txt'\n"}
+[1.727226] (CRX-10iA_L_description) StdoutLine: {'line': b'running build\n'}
+[1.727415] (CRX-10iA_L_description) StdoutLine: {'line': b'running build_py\n'}
+[1.729183] (CRX-10iA_L_description) StdoutLine: {'line': b'running install\n'}
+[1.729800] (CRX-10iA_L_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.732527] (CRX-10iA_L_description) StdoutLine: {'line': b'running install_data\n'}
+[1.736172] (CRX-10iA_L_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.742134] (CRX-10iA_L_description) StdoutLine: {'line': b"removing '/home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX_10iA_L_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.742405] (CRX-10iA_L_description) StdoutLine: {'line': b'Copying ../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info to /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX_10iA_L_description-0.0.0-py3.10.egg-info\n'}
+[1.746605] (CRX-10iA_L_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.793803] (CRX-10iA_L_description) StdoutLine: {'line': b"writing list of installed files to '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/install.log'\n"}
+[1.810798] (-) TimerEvent: {}
+[1.846831] (CRX-10iA_L_description) CommandEnded: {'returncode': 0}
+[1.873579] (robot_control) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.889163] (CRX-10iA_L_description) JobEnded: {'identifier': 'CRX-10iA_L_description', 'rc': 0}
+[1.911530] (-) TimerEvent: {}
+[1.938598] (robot_control) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[1.971482] (robot_control) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[1.974859] (robot_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.012119] (-) TimerEvent: {}
+[2.112994] (-) TimerEvent: {}
+[2.212377] (robot_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.212848] (robot_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.213001] (-) TimerEvent: {}
+[2.213163] (robot_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.213705] (robot_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.215042] (robot_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.216329] (robot_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.219116] (robot_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.219348] (robot_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.220343] (robot_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.224443] (robot_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.259073] (robot_control) StdoutLine: {'line': b'-- Generating done\n'}
+[2.264636] (robot_control) StdoutLine: {'line': b'-- Build files have been written to: /home/salman/Ros2_Workspace/build/robot_control\n'}
+[2.307100] (robot_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motion_control\x1b[0m\n'}
+[2.313282] (-) TimerEvent: {}
+[2.380022] (robot_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motion_control.dir/src/motion_control.cpp.o\x1b[0m\n'}
+[2.413735] (-) TimerEvent: {}
+[2.514107] (-) TimerEvent: {}
+[2.614514] (-) TimerEvent: {}
+[2.715331] (-) TimerEvent: {}
+[2.816066] (-) TimerEvent: {}
+[2.916615] (-) TimerEvent: {}
+[3.017545] (-) TimerEvent: {}
+[3.118071] (-) TimerEvent: {}
+[3.218917] (-) TimerEvent: {}
+[3.319923] (-) TimerEvent: {}
+[3.421468] (-) TimerEvent: {}
+[3.522268] (-) TimerEvent: {}
+[3.623043] (-) TimerEvent: {}
+[3.723781] (-) TimerEvent: {}
+[3.824908] (-) TimerEvent: {}
+[3.925809] (-) TimerEvent: {}
+[4.028388] (-) TimerEvent: {}
+[4.129095] (-) TimerEvent: {}
+[4.230739] (-) TimerEvent: {}
+[4.344914] (-) TimerEvent: {}
+[4.445999] (-) TimerEvent: {}
+[4.547260] (-) TimerEvent: {}
+[4.648147] (-) TimerEvent: {}
+[4.749092] (-) TimerEvent: {}
+[4.850084] (-) TimerEvent: {}
+[4.950783] (-) TimerEvent: {}
+[5.051627] (-) TimerEvent: {}
+[5.152853] (-) TimerEvent: {}
+[5.253654] (-) TimerEvent: {}
+[5.357776] (-) TimerEvent: {}
+[5.459406] (-) TimerEvent: {}
+[5.560610] (-) TimerEvent: {}
+[5.661506] (-) TimerEvent: {}
+[5.762629] (-) TimerEvent: {}
+[5.864245] (-) TimerEvent: {}
+[5.965037] (-) TimerEvent: {}
+[6.065568] (-) TimerEvent: {}
+[6.166237] (-) TimerEvent: {}
+[6.267318] (-) TimerEvent: {}
+[6.368873] (-) TimerEvent: {}
+[6.472210] (-) TimerEvent: {}
+[6.572804] (-) TimerEvent: {}
+[6.673454] (-) TimerEvent: {}
+[6.774047] (-) TimerEvent: {}
+[6.874852] (-) TimerEvent: {}
+[6.975647] (-) TimerEvent: {}
+[7.076297] (-) TimerEvent: {}
+[7.177588] (-) TimerEvent: {}
+[7.278358] (-) TimerEvent: {}
+[7.379207] (-) TimerEvent: {}
+[7.480095] (-) TimerEvent: {}
+[7.580856] (-) TimerEvent: {}
+[7.682087] (-) TimerEvent: {}
+[7.782708] (-) TimerEvent: {}
+[7.883331] (-) TimerEvent: {}
+[7.984348] (-) TimerEvent: {}
+[8.085206] (-) TimerEvent: {}
+[8.185989] (-) TimerEvent: {}
+[8.286648] (-) TimerEvent: {}
+[8.387656] (-) TimerEvent: {}
+[8.488141] (-) TimerEvent: {}
+[8.589259] (-) TimerEvent: {}
+[8.690351] (-) TimerEvent: {}
+[8.791014] (-) TimerEvent: {}
+[8.891720] (-) TimerEvent: {}
+[8.992209] (-) TimerEvent: {}
+[9.092817] (-) TimerEvent: {}
+[9.193768] (-) TimerEvent: {}
+[9.294821] (-) TimerEvent: {}
+[9.395745] (-) TimerEvent: {}
+[9.496553] (-) TimerEvent: {}
+[9.597254] (-) TimerEvent: {}
+[9.697841] (-) TimerEvent: {}
+[9.799063] (-) TimerEvent: {}
+[9.900274] (-) TimerEvent: {}
+[10.001569] (-) TimerEvent: {}
+[10.102443] (-) TimerEvent: {}
+[10.203242] (-) TimerEvent: {}
+[10.304293] (-) TimerEvent: {}
+[10.405460] (-) TimerEvent: {}
+[10.506077] (-) TimerEvent: {}
+[10.606891] (-) TimerEvent: {}
+[10.707804] (-) TimerEvent: {}
+[10.808509] (-) TimerEvent: {}
+[10.908991] (-) TimerEvent: {}
+[11.010070] (-) TimerEvent: {}
+[11.111029] (-) TimerEvent: {}
+[11.211739] (-) TimerEvent: {}
+[11.312806] (-) TimerEvent: {}
+[11.413555] (-) TimerEvent: {}
+[11.514718] (-) TimerEvent: {}
+[11.615422] (-) TimerEvent: {}
+[11.716236] (-) TimerEvent: {}
+[11.816988] (-) TimerEvent: {}
+[11.917939] (-) TimerEvent: {}
+[12.018948] (-) TimerEvent: {}
+[12.120010] (-) TimerEvent: {}
+[12.221169] (-) TimerEvent: {}
+[12.322083] (-) TimerEvent: {}
+[12.423034] (-) TimerEvent: {}
+[12.524017] (-) TimerEvent: {}
+[12.624595] (-) TimerEvent: {}
+[12.726433] (-) TimerEvent: {}
+[12.827195] (-) TimerEvent: {}
+[12.927815] (-) TimerEvent: {}
+[13.009951] (robot_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motion_control\x1b[0m\n'}
+[13.028301] (-) TimerEvent: {}
+[13.130122] (-) TimerEvent: {}
+[13.231229] (-) TimerEvent: {}
+[13.331906] (-) TimerEvent: {}
+[13.433143] (-) TimerEvent: {}
+[13.515747] (robot_control) StdoutLine: {'line': b'[100%] Built target motion_control\n'}
+[13.533536] (-) TimerEvent: {}
+[13.542337] (robot_control) CommandEnded: {'returncode': 0}
+[13.580759] (robot_control) JobProgress: {'identifier': 'robot_control', 'progress': 'install'}
+[13.596549] (robot_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/salman/Ros2_Workspace/build/robot_control'], 'cwd': '/home/salman/Ros2_Workspace/build/robot_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'salman'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/salman'), ('OLDPWD', '/home/salman/Ros2_Workspace/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/salman/Ros2_Workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'salman'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'salman'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/salman-vm:@/tmp/.ICE-unix/1094,unix/salman-vm:/tmp/.ICE-unix/1094'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/691488b5_3184_4e3c_8cbc_22e21b8f39c7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K8K1S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.141'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/salman/Ros2_Workspace/install/robot_control:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/salman/Ros2_Workspace/build/robot_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/salman/Ros2_Workspace/install/robot_control:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble')]), 'shell': False}
+[13.606216] (robot_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.606682] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/lib/robot_control/motion_control\n'}
+[13.609517] (robot_control) StdoutLine: {'line': b'-- Set runtime path of "/home/salman/Ros2_Workspace/install/robot_control/lib/robot_control/motion_control" to ""\n'}
+[13.610144] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch\n'}
+[13.610499] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch/gazebo.launch.py\n'}
+[13.611156] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/launch/display.launch.py\n'}
+[13.611659] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control\n'}
+[13.611889] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CRX-10iA_L.trans\n'}
+[13.612324] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/materials.xacro\n'}
+[13.612841] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CRX-10iA_L.gazebo\n'}
+[13.613351] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CRX-10iA_L.xacro\n'}
+[13.614068] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control\n'}
+[13.614417] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CRX-10iAL_MotionEnvelope_J5AxisRotation_1.stl\n'}
+[13.618430] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CRX-10iAL_MotionEnvelope_EndofFlange_1.stl\n'}
+[13.621714] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CRX-10iAL_Axis3_1.stl\n'}
+[13.626780] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CRX-10iAL_Axis4_1.stl\n'}
+[13.633909] (-) TimerEvent: {}
+[13.635218] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CRX-10iAL_Axis6_WithConnectors_1.stl\n'}
+[13.638187] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CORDGRIP.stl\n'}
+[13.639879] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/J1PLATE.stl\n'}
+[13.640922] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CRX-10iAL_Axis5_1.stl\n'}
+[13.647234] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CAM.stl\n'}
+[13.648167] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/base_link.stl\n'}
+[13.653062] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CRX-10iAL_MaxReachReference_1.stl\n'}
+[13.653850] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CRX-10iAL_Axis2_1.stl\n'}
+[13.659302] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CONNECTOR_UNIT.stl\n'}
+[13.661585] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/CRX-10iAL_Axis1_1.stl\n'}
+[13.666316] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control\n'}
+[13.666996] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control\n'}
+[13.667559] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/ament_prefix_path.sh\n'}
+[13.668008] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv\n'}
+[13.668577] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/path.sh\n'}
+[13.669176] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/path.dsv\n'}
+[13.669386] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.bash\n'}
+[13.670979] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.sh\n'}
+[13.672645] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.zsh\n'}
+[13.672883] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.dsv\n'}
+[13.673101] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/package.dsv\n'}
+[13.673341] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/ament_index/resource_index/packages/robot_control\n'}
+[13.673555] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake\n'}
+[13.673726] (robot_control) StdoutLine: {'line': b'-- Up-to-date: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake\n'}
+[13.676108] (robot_control) StdoutLine: {'line': b'-- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/package.xml\n'}
+[13.677472] (robot_control) CommandEnded: {'returncode': 0}
+[13.735929] (-) TimerEvent: {}
+[13.756399] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 0}
+[13.760181] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+[0.580s] Invoking command in '/home/salman/Ros2_Workspace/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4
+[0.826s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_control.dir/src/motion_control.cpp.o[0m
+[9.035s] [01m[K/home/salman/Ros2_Workspace/src/robot_control/src/motion_control.cpp:[m[K In member function ‘[01m[Kvoid MotionControlPublisherCpp::timerCallback()[m[K’:
+[9.035s] [01m[K/home/salman/Ros2_Workspace/src/robot_control/src/motion_control.cpp:92:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_joints[m[K’ was not declared in this scope
+[9.036s]    92 |         msg_gripper.joint_names = [01;31m[Kgripper_joints[m[K;
+[9.036s]       |                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[10.949s] gmake[2]: *** [CMakeFiles/motion_control.dir/build.make:76: CMakeFiles/motion_control.dir/src/motion_control.cpp.o] Error 1
+[10.949s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_control.dir/all] Error 2
+[10.949s] gmake: *** [Makefile:146: all] Error 2
+[10.964s] Invoked command in '/home/salman/Ros2_Workspace/build/robot_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4

@@ -1,0 +1,31 @@
+[1.394s] Invoking command in '/home/salman/Ros2_Workspace/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4
+[1.588s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.418s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.732s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.755s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.819s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.912s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.315s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.344s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.877s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.277s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.504s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[4.620s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[4.643s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.052s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.052s] -- Configured cppcheck include dirs: 
+[5.052s] -- Configured cppcheck exclude dirs and/or files: 
+[5.054s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.080s] -- Added test 'lint_cmake' to check CMake code style
+[5.083s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.088s] -- Added test 'uncrustify' to check C / C++ code style
+[5.089s] -- Configured uncrustify additional arguments: 
+[5.091s] -- Added test 'xmllint' to check XML markup files
+[5.098s] -- Configuring done
+[5.125s] [0mCMake Error: Cannot determine link language for target "motion_control".[0m
+[5.127s] [0mCMake Error: CMake can not determine linker language for target: motion_control[0m
+[5.261s] -- Generating done
+[5.273s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[5.288s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[5.295s] Invoked command in '/home/salman/Ros2_Workspace/build/robot_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4

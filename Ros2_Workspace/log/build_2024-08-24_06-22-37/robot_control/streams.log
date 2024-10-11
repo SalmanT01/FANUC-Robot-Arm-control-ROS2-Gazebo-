@@ -1,0 +1,44 @@
+[1.904s] Invoking command in '/home/salman/Ros2_Workspace/build/robot_control': /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4
+[2.469s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.328s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.677s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.715s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.782s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.882s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.037s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.435s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.458s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.255s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.753s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.016s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[6.142s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[6.157s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.462s] Error parsing '/home/salman/Ros2_Workspace/src/robot_control/package.xml':
+[6.792s] Traceback (most recent call last):
+[6.793s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[6.793s]     main()
+[6.793s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[6.794s]     raise e
+[6.794s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[6.794s]     package = parse_package_string(
+[6.795s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[6.795s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[6.795s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/salman/Ros2_Workspace/src/robot_control/package.xml':
+[6.796s] Error(s):
+[6.796s] - The generic dependency on 'gazebo_ros' is redundant with: build_depend, build_export_depend, exec_depend
+[6.883s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[6.883s]   execute_process(/usr/bin/python3
+[6.884s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[6.884s]   /home/salman/Ros2_Workspace/src/robot_control/package.xml
+[6.885s]   /home/salman/Ros2_Workspace/build/robot_control/ament_cmake_core/package.cmake)
+[6.885s]   returned error code 1
+[6.886s] Call Stack (most recent call first):
+[6.886s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[6.886s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[6.886s]   CMakeLists.txt:59 (ament_lint_auto_find_test_dependencies)
+[6.887s] 
+[6.887s] [0m
+[6.887s] -- Configuring incomplete, errors occurred!
+[6.890s] See also "/home/salman/Ros2_Workspace/build/robot_control/CMakeFiles/CMakeOutput.log".
+[6.924s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[6.942s] Invoked command in '/home/salman/Ros2_Workspace/build/robot_control' returned '2': /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4

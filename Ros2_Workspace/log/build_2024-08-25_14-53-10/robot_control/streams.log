@@ -1,0 +1,29 @@
+[0.462s] Invoking command in '/home/salman/Ros2_Workspace/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4
+[0.536s] [35m[1mConsolidate compiler generated dependencies of target motion_control[0m
+[0.558s] [ 50%] [32mBuilding CXX object CMakeFiles/motion_control.dir/src/motion_control.cpp.o[0m
+[4.327s] [01m[K/home/salman/Ros2_Workspace/src/robot_control/src/motion_control.cpp:[m[K In constructor ‘[01m[KMotionControlPublisherCpp::MotionControlPublisherCpp()[m[K’:
+[4.327s] [01m[K/home/salman/Ros2_Workspace/src/robot_control/src/motion_control.cpp:47:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[K{[m[K’ token
+[4.328s]    47 |             [01;31m[K{[m[K1.345, -0.90, 0.264, -0.296, 0.389, -1.5},  // Place location
+[4.328s]       |             [01;31m[K^[m[K
+[4.328s] [01m[K/home/salman/Ros2_Workspace/src/robot_control/src/motion_control.cpp:42:26:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[4.328s]    42 |         arm_positions_ = [01;36m[K{[m[K
+[4.328s]       |                          [01;36m[K^[m[K
+[4.328s] [01m[K/home/salman/Ros2_Workspace/src/robot_control/src/motion_control.cpp:47:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[4.328s]    47 |             [01;31m[K{[m[K1.345, -0.90, 0.264, -0.296, 0.389, -1.5},  // Place location
+[4.328s]       |             [01;31m[K^[m[K
+[4.328s] [01m[K/home/salman/Ros2_Workspace/src/robot_control/src/motion_control.cpp:47:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[4.329s]    47 |             {1.345, -0.90, 0.264, -0.296, 0.389, -1.5}[01;31m[K,[m[K  // Place location
+[4.329s]       |                                                       [01;31m[K^[m[K
+[4.329s] [01m[K/home/salman/Ros2_Workspace/src/robot_control/src/motion_control.cpp:48:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+[4.329s]    48 |             [01;31m[K{[m[K1.345, -0.90, 0.264, -0.296, 0.389, -1.5},
+[4.329s]       |             [01;31m[K^[m[K
+[4.329s] [01m[K/home/salman/Ros2_Workspace/src/robot_control/src/motion_control.cpp:48:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[4.329s]    48 |             {1.345, -0.90, 0.264, -0.296, 0.389, -1.5}[01;31m[K,[m[K
+[4.329s]       |                                                       [01;31m[K^[m[K
+[4.329s] [01m[K/home/salman/Ros2_Workspace/src/robot_control/src/motion_control.cpp:49:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+[4.329s]    49 |         [01;31m[K}[m[K;
+[4.329s]       |         [01;31m[K^[m[K
+[5.707s] gmake[2]: *** [CMakeFiles/motion_control.dir/build.make:76: CMakeFiles/motion_control.dir/src/motion_control.cpp.o] Error 1
+[5.708s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motion_control.dir/all] Error 2
+[5.709s] gmake: *** [Makefile:146: all] Error 2
+[5.713s] Invoked command in '/home/salman/Ros2_Workspace/build/robot_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4

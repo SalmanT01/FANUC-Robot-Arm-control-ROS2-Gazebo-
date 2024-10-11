@@ -1,0 +1,15 @@
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/ament_index/resource_index/package_run_dependencies/mycobot_gazebo
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/ament_index/resource_index/parent_prefix_path/mycobot_gazebo
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/mycobot_gazebo/environment/ament_prefix_path.sh
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/mycobot_gazebo/environment/ament_prefix_path.dsv
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/mycobot_gazebo/environment/path.sh
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/mycobot_gazebo/environment/path.dsv
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/mycobot_gazebo/local_setup.bash
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/mycobot_gazebo/local_setup.sh
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/mycobot_gazebo/local_setup.zsh
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/mycobot_gazebo/local_setup.dsv
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/mycobot_gazebo/package.dsv
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/ament_index/resource_index/packages/mycobot_gazebo
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/mycobot_gazebo/cmake/mycobot_gazeboConfig.cmake
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/mycobot_gazebo/cmake/mycobot_gazeboConfig-version.cmake
+/home/salman/Ros2_Workspace/install/mycobot_gazebo/share/mycobot_gazebo/package.xml

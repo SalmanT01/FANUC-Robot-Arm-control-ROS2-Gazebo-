@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000500] (CRX-10iA_L_description) JobQueued: {'identifier': 'CRX-10iA_L_description', 'dependencies': OrderedDict()}
+[0.000566] (CRX-10iA_L_description) JobStarted: {'identifier': 'CRX-10iA_L_description'}
+[0.098898] (-) TimerEvent: {}
+[0.199682] (-) TimerEvent: {}
+[0.300393] (-) TimerEvent: {}
+[0.401322] (-) TimerEvent: {}
+[0.502414] (-) TimerEvent: {}
+[0.603120] (-) TimerEvent: {}
+[0.704007] (-) TimerEvent: {}
+[0.804848] (-) TimerEvent: {}
+[0.905432] (-) TimerEvent: {}
+[1.006141] (-) TimerEvent: {}
+[1.106987] (-) TimerEvent: {}
+[1.160689] (CRX-10iA_L_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/CRX-10iA_L_description', 'build', '--build-base', '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build', 'install', '--record', '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/install.log', '--install-scripts', '$base/lib/CRX-10iA_L_description', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/salman/Ros2_Workspace/src/CRX-10iA_L_description/CRX-10iA_L_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'salman', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/salman', 'OLDPWD': '/home/salman/Ros2_Workspace/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1135', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/salman/Ros2_Workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'salman', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'salman', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/salman-vm:@/tmp/.ICE-unix/1104,unix/salman-vm:/tmp/.ICE-unix/1104', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bc384cd4_03b0_493f_845b_861e3e9c9c44', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7ZS5S2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.143', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.207303] (-) TimerEvent: {}
+[1.308224] (-) TimerEvent: {}
+[1.408951] (-) TimerEvent: {}
+[1.482435] (CRX-10iA_L_description) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.482709] (CRX-10iA_L_description) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.490937] (CRX-10iA_L_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.491178] (CRX-10iA_L_description) StdoutLine: {'line': b'creating ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info\n'}
+[1.491355] (CRX-10iA_L_description) StdoutLine: {'line': b'writing ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/PKG-INFO\n'}
+[1.491580] (CRX-10iA_L_description) StdoutLine: {'line': b'writing dependency_links to ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/dependency_links.txt\n'}
+[1.491695] (CRX-10iA_L_description) StdoutLine: {'line': b'writing entry points to ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/entry_points.txt\n'}
+[1.491796] (CRX-10iA_L_description) StdoutLine: {'line': b'writing requirements to ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/requires.txt\n'}
+[1.491928] (CRX-10iA_L_description) StdoutLine: {'line': b'writing top-level names to ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/top_level.txt\n'}
+[1.492034] (CRX-10iA_L_description) StdoutLine: {'line': b"writing manifest file '../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/SOURCES.txt'\n"}
+[1.494745] (CRX-10iA_L_description) StdoutLine: {'line': b"reading manifest file '../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/SOURCES.txt'\n"}
+[1.495172] (CRX-10iA_L_description) StdoutLine: {'line': b"writing manifest file '../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/SOURCES.txt'\n"}
+[1.495301] (CRX-10iA_L_description) StdoutLine: {'line': b'running build\n'}
+[1.495441] (CRX-10iA_L_description) StdoutLine: {'line': b'running build_py\n'}
+[1.495648] (CRX-10iA_L_description) StdoutLine: {'line': b'creating /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build\n'}
+[1.495760] (CRX-10iA_L_description) StdoutLine: {'line': b'creating /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build/lib\n'}
+[1.495860] (CRX-10iA_L_description) StdoutLine: {'line': b'creating /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build/lib/CRX-10iA_L_description\n'}
+[1.496048] (CRX-10iA_L_description) StdoutLine: {'line': b'copying CRX-10iA_L_description/__init__.py -> /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build/lib/CRX-10iA_L_description\n'}
+[1.496150] (CRX-10iA_L_description) StdoutLine: {'line': b'running install\n'}
+[1.497424] (CRX-10iA_L_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.497631] (CRX-10iA_L_description) StdoutLine: {'line': b'creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX-10iA_L_description\n'}
+[1.497745] (CRX-10iA_L_description) StdoutLine: {'line': b'copying /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build/lib/CRX-10iA_L_description/__init__.py -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX-10iA_L_description\n'}
+[1.498372] (CRX-10iA_L_description) StdoutLine: {'line': b'byte-compiling /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX-10iA_L_description/__init__.py to __init__.cpython-310.pyc\n'}
+[1.498873] (CRX-10iA_L_description) StdoutLine: {'line': b'running install_data\n'}
+[1.499060] (CRX-10iA_L_description) StdoutLine: {'line': b'creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/ament_index\n'}
+[1.499277] (CRX-10iA_L_description) StdoutLine: {'line': b'creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/ament_index/resource_index\n'}
+[1.499424] (CRX-10iA_L_description) StdoutLine: {'line': b'creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/ament_index/resource_index/packages\n'}
+[1.499546] (CRX-10iA_L_description) StdoutLine: {'line': b'copying resource/CRX-10iA_L_description -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/ament_index/resource_index/packages\n'}
+[1.499683] (CRX-10iA_L_description) StdoutLine: {'line': b'copying package.xml -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description\n'}
+[1.499759] (CRX-10iA_L_description) StdoutLine: {'line': b'creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/launch\n'}
+[1.499828] (CRX-10iA_L_description) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/launch\n'}
+[1.499887] (CRX-10iA_L_description) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/launch\n'}
+[1.499941] (CRX-10iA_L_description) StdoutLine: {'line': b'creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/urdf\n'}
+[1.499987] (CRX-10iA_L_description) StdoutLine: {'line': b'copying urdf/CRX-10iA_L.trans -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/urdf\n'}
+[1.500123] (CRX-10iA_L_description) StdoutLine: {'line': b'copying urdf/materials.xacro -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/urdf\n'}
+[1.500175] (CRX-10iA_L_description) StdoutLine: {'line': b'copying urdf/CRX-10iA_L.gazebo -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/urdf\n'}
+[1.500237] (CRX-10iA_L_description) StdoutLine: {'line': b'copying urdf/CRX-10iA_L.xacro -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/urdf\n'}
+[1.500297] (CRX-10iA_L_description) StdoutLine: {'line': b'creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.500343] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/CRX-10iAL_MotionEnvelope_J5AxisRotation_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.500746] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/CRX-10iAL_MotionEnvelope_EndofFlange_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.501259] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/CRX-10iAL_Axis3_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.502294] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/CRX-10iAL_Axis4_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.503533] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/CRX-10iAL_Axis6_WithConnectors_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.503989] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/CORDGRIP.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.504295] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/J1PLATE.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.504524] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/CRX-10iAL_Axis5_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.506257] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/CAM.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.506556] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/base_link.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.508305] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/CRX-10iAL_MaxReachReference_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.508580] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/CRX-10iAL_Axis2_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.509943] (-) TimerEvent: {}
+[1.511435] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/CONNECTOR_UNIT.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.512925] (CRX-10iA_L_description) StdoutLine: {'line': b'copying meshes/CRX-10iAL_Axis1_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes\n'}
+[1.514158] (CRX-10iA_L_description) StdoutLine: {'line': b'creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/config\n'}
+[1.514379] (CRX-10iA_L_description) StdoutLine: {'line': b'copying config/display.rviz -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/config\n'}
+[1.514588] (CRX-10iA_L_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.516957] (CRX-10iA_L_description) StdoutLine: {'line': b'Copying ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info to /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX_10iA_L_description-0.0.0-py3.10.egg-info\n'}
+[1.519467] (CRX-10iA_L_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.584000] (CRX-10iA_L_description) StdoutLine: {'line': b"writing list of installed files to '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/install.log'\n"}
+[1.610512] (-) TimerEvent: {}
+[1.639494] (CRX-10iA_L_description) CommandEnded: {'returncode': 0}
+[1.709965] (CRX-10iA_L_description) JobEnded: {'identifier': 'CRX-10iA_L_description', 'rc': 0}
+[1.712806] (-) TimerEvent: {}
+[1.712974] (-) EventReactorShutdown: {}

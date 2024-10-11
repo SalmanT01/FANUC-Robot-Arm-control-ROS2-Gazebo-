@@ -1,0 +1,60 @@
+[0.642s] Invoking command in '/home/salman/Ros2_Workspace/build/robot_control': CMAKE_PREFIX_PATH=/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake /home/salman/Ros2_Workspace/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/salman/Ros2_Workspace/install/robot_control
+[0.990s] -- The C compiler identification is GNU 11.4.0
+[1.265s] -- The CXX compiler identification is GNU 11.4.0
+[1.290s] -- Detecting C compiler ABI info
+[1.464s] -- Detecting C compiler ABI info - done
+[1.491s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.492s] -- Detecting C compile features
+[1.499s] -- Detecting C compile features - done
+[1.516s] -- Detecting CXX compiler ABI info
+[1.744s] -- Detecting CXX compiler ABI info - done
+[1.758s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.760s] -- Detecting CXX compile features
+[1.763s] -- Detecting CXX compile features - done
+[1.812s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.210s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.456s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.563s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.587s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.636s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.687s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.845s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.855s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.136s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.175s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.217s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.248s] -- Looking for pthread.h
+[3.472s] -- Looking for pthread.h - found
+[3.474s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.622s] -- Found Threads: TRUE  
+[3.861s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.995s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[4.046s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.222s] -- Added test 'lint_cmake' to check CMake code style
+[4.227s] -- Added test 'xmllint' to check XML markup files
+[4.236s] -- Configuring done
+[4.251s] -- Generating done
+[4.256s] -- Build files have been written to: /home/salman/Ros2_Workspace/build/robot_control
+[4.279s] Invoked command in '/home/salman/Ros2_Workspace/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake /home/salman/Ros2_Workspace/src/robot_control -DCMAKE_INSTALL_PREFIX=/home/salman/Ros2_Workspace/install/robot_control
+[4.286s] Invoking command in '/home/salman/Ros2_Workspace/build/robot_control': CMAKE_PREFIX_PATH=/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4
+[4.374s] Invoked command in '/home/salman/Ros2_Workspace/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --build /home/salman/Ros2_Workspace/build/robot_control -- -j4 -l4
+[4.424s] Invoking command in '/home/salman/Ros2_Workspace/build/robot_control': CMAKE_PREFIX_PATH=/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --install /home/salman/Ros2_Workspace/build/robot_control
+[4.433s] -- Install configuration: ""
+[4.433s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[4.434s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[4.434s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[4.434s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[4.434s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/path.sh
+[4.434s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/environment/path.dsv
+[4.434s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.bash
+[4.434s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.sh
+[4.434s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.zsh
+[4.434s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/local_setup.dsv
+[4.434s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/package.dsv
+[4.434s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[4.435s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[4.435s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[4.436s] -- Installing: /home/salman/Ros2_Workspace/install/robot_control/share/robot_control/package.xml
+[4.438s] Invoked command in '/home/salman/Ros2_Workspace/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/home/salman/Ros2_Workspace/install/CRX-10iA_L_description:/opt/ros/humble /usr/bin/cmake --install /home/salman/Ros2_Workspace/build/robot_control

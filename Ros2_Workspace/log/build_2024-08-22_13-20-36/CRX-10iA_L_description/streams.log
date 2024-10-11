@@ -1,0 +1,60 @@
+[1.161s] Invoking command in '/home/salman/Ros2_Workspace/src/CRX-10iA_L_description/CRX-10iA_L_description': PYTHONPATH=/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/CRX-10iA_L_description build --build-base /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build install --record /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/install.log --install-scripts $base/lib/CRX-10iA_L_description --single-version-externally-managed install_data
+[1.482s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.482s]   warnings.warn(
+[1.491s] running egg_info
+[1.491s] creating ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info
+[1.491s] writing ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/PKG-INFO
+[1.491s] writing dependency_links to ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/dependency_links.txt
+[1.491s] writing entry points to ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/entry_points.txt
+[1.491s] writing requirements to ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/requires.txt
+[1.491s] writing top-level names to ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/top_level.txt
+[1.492s] writing manifest file '../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/SOURCES.txt'
+[1.494s] reading manifest file '../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/SOURCES.txt'
+[1.495s] writing manifest file '../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info/SOURCES.txt'
+[1.495s] running build
+[1.495s] running build_py
+[1.495s] creating /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build
+[1.495s] creating /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build/lib
+[1.495s] creating /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build/lib/CRX-10iA_L_description
+[1.496s] copying CRX-10iA_L_description/__init__.py -> /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build/lib/CRX-10iA_L_description
+[1.496s] running install
+[1.497s] running install_lib
+[1.497s] creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX-10iA_L_description
+[1.497s] copying /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build/lib/CRX-10iA_L_description/__init__.py -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX-10iA_L_description
+[1.498s] byte-compiling /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX-10iA_L_description/__init__.py to __init__.cpython-310.pyc
+[1.498s] running install_data
+[1.499s] creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/ament_index
+[1.499s] creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/ament_index/resource_index
+[1.499s] creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/ament_index/resource_index/packages
+[1.499s] copying resource/CRX-10iA_L_description -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/ament_index/resource_index/packages
+[1.499s] copying package.xml -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description
+[1.499s] creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/launch
+[1.499s] copying launch/gazebo.launch.py -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/launch
+[1.499s] copying launch/display.launch.py -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/launch
+[1.499s] creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/urdf
+[1.499s] copying urdf/CRX-10iA_L.trans -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/urdf
+[1.500s] copying urdf/materials.xacro -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/urdf
+[1.500s] copying urdf/CRX-10iA_L.gazebo -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/urdf
+[1.500s] copying urdf/CRX-10iA_L.xacro -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/urdf
+[1.500s] creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.500s] copying meshes/CRX-10iAL_MotionEnvelope_J5AxisRotation_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.500s] copying meshes/CRX-10iAL_MotionEnvelope_EndofFlange_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.501s] copying meshes/CRX-10iAL_Axis3_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.502s] copying meshes/CRX-10iAL_Axis4_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.503s] copying meshes/CRX-10iAL_Axis6_WithConnectors_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.503s] copying meshes/CORDGRIP.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.504s] copying meshes/J1PLATE.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.504s] copying meshes/CRX-10iAL_Axis5_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.506s] copying meshes/CAM.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.506s] copying meshes/base_link.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.508s] copying meshes/CRX-10iAL_MaxReachReference_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.508s] copying meshes/CRX-10iAL_Axis2_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.511s] copying meshes/CONNECTOR_UNIT.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.512s] copying meshes/CRX-10iAL_Axis1_1.stl -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/meshes
+[1.514s] creating /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/config
+[1.514s] copying config/display.rviz -> /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/share/CRX-10iA_L_description/config
+[1.514s] running install_egg_info
+[1.517s] Copying ../../../build/CRX-10iA_L_description/CRX_10iA_L_description.egg-info to /home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages/CRX_10iA_L_description-0.0.0-py3.10.egg-info
+[1.519s] running install_scripts
+[1.584s] writing list of installed files to '/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/install.log'
+[1.640s] Invoked command in '/home/salman/Ros2_Workspace/src/CRX-10iA_L_description/CRX-10iA_L_description' returned '0': PYTHONPATH=/home/salman/Ros2_Workspace/build/CRX-10iA_L_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/salman/Ros2_Workspace/install/CRX-10iA_L_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/CRX-10iA_L_description build --build-base /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/build install --record /home/salman/Ros2_Workspace/build/CRX-10iA_L_description/install.log --install-scripts $base/lib/CRX-10iA_L_description --single-version-externally-managed install_data
