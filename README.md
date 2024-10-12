@@ -62,6 +62,25 @@ ros2 pkg create --build-type ament_cmake Robot_Control --dependencies rclcpp std
 #### **5.2 Configuring CMakeLists.txt and package.xml**
 Configured `CMakeLists.txt` to compile `motion_control.cpp` and linked necessary ROS 2 libraries. Updated `package.xml` with all dependencies.
 
+## **How to Run the Simulation**
+In order to run the simulation, use the following commands:
+
+1. Navigate to the ROS 2 workspace:
+```bash
+cd /Ros2_Workspace
+```
+
+2. Launch the simulation:
+```bash
+ros2 launch robot_control gazebo.launch.py
+```
+
+3. Run the Joint Motion Node:
+```bash
+ros2 run robot_control motion_control
+```
+
+
 #### **5.3 Writing the Motion Control Node**
 Implemented the `motion_control.cpp` node to publish joint trajectories to control the robot arm.
 
