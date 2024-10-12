@@ -62,6 +62,13 @@ ros2 pkg create --build-type ament_cmake Robot_Control --dependencies rclcpp std
 #### **5.2 Configuring CMakeLists.txt and package.xml**
 Configured `CMakeLists.txt` to compile `motion_control.cpp` and linked necessary ROS 2 libraries. Updated `package.xml` with all dependencies.
 
+#### **5.3 Writing the Motion Control Node**
+Implemented the `motion_control.cpp` node to publish joint trajectories to control the robot arm.
+
+#### **5.4 Integration with Gazebo**
+Modified `gazebo.launch.py` to ensure proper loading and activation of the necessary controllers for joint trajectory control.
+
+
 ## **How to Run the Simulation**
 In order to run the simulation, use the following commands:
 
@@ -81,8 +88,3 @@ ros2 run robot_control motion_control
 ```
 
 
-#### **5.3 Writing the Motion Control Node**
-Implemented the `motion_control.cpp` node to publish joint trajectories to control the robot arm.
-
-#### **5.4 Integration with Gazebo**
-Modified `gazebo.launch.py` to ensure proper loading and activation of the necessary controllers for joint trajectory control.
